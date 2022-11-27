@@ -156,7 +156,86 @@
             </div>
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
-                
+                <h1 id="MySQL概述"><a href="#MySQL概述" class="headerlink" title="MySQL概述"></a>MySQL概述</h1><ul>
+<li>数据库相关概念</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>名称</th>
+<th>全称</th>
+<th>简称</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>数据库</td>
+<td>存储数据的仓库,数据是有组织的进行存储</td>
+<td>DataBase</td>
+</tr>
+<tr>
+<td>数据库管理系统</td>
+<td>操纵和管理数据库的大型软件</td>
+<td>DataBase Management System</td>
+</tr>
+<tr>
+<td>SQL</td>
+<td>操作关系型数据库的编程语言,定义了一套操作关系型数据库统一标准</td>
+<td>Structured Query Language</td>
+</tr>
+</tbody></table>
+<ul>
+<li>MySQL数据库</li>
+</ul>
+<p>本机默认指定的mysql的系统服务名为MySQL80</p>
+<p>1.关系型数据库（RDBMS）</p>
+<p>概念：建立在关系模型基础上，由多张相互连接的二维表组成的数据库。</p>
+<p>特点：</p>
+<p>A. 使用表存储数据，格式统一，便于维护。 B. 使用SQL语言操作，标准统一，使用方便。</p>
+<p>2.数据模型</p>
+<p>MySQL是关系型数据库，是基于二维表进行数据存储的</p>
+<ul>
+<li>我们可以通过MySQL客户端连接数据库管理系统DBMS，然后通过DBMS操作数据库。 </li>
+<li>可以使用SQL语句，通过数据库管理系统操作数据库，以及操作数据库中的表结构及数据。</li>
+<li>一个数据库服务器中可以创建多个数据库，一个数据库中也可以包含多张表，而一张表中又可以包 含多行记录。</li>
+</ul>
+<h1 id="SQL"><a href="#SQL" class="headerlink" title="SQL"></a>SQL</h1><p>全称 <strong>Structured Query Language</strong>，结构化查询语言。操作关系型数据库的编程语言，定义了 一套操作关系型数据库统一标准 。</p>
+<h2 id="通用语法"><a href="#通用语法" class="headerlink" title="通用语法"></a>通用语法</h2><p>1). SQL语句可以单行或多行书写，以分号结尾。 </p>
+<p>2). SQL语句可以使用空格&#x2F;缩进来增强语句的可读性。 </p>
+<p>3). MySQL数据库的SQL语句不区分大小写，关键字建议使用大写。 </p>
+<p>4). 注释： </p>
+<p>单行注释：– 注释内容 或 # 注释内容 </p>
+<p>多行注释：&#x2F;* 注释内容 *&#x2F;</p>
+<h2 id="SQL分类"><a href="#SQL分类" class="headerlink" title="SQL分类"></a>SQL分类</h2><p>SQL语句，根据其功能，主要分为四类：DDL、DML、DQL、DCL。</p>
+<table>
+<thead>
+<tr>
+<th>分类</th>
+<th>全程</th>
+<th>说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>DDL</td>
+<td>Data Definition Language</td>
+<td>数据定义语言，用来定义数据库对象(数据库，表， 字段)</td>
+</tr>
+<tr>
+<td>DML</td>
+<td>Data Manipulation Language</td>
+<td>数据操作语言，用来对数据库表中的数据进行增删改</td>
+</tr>
+<tr>
+<td>DQL</td>
+<td>Data Query Language</td>
+<td>数据查询语言，用来查询数据库中表的记录</td>
+</tr>
+<tr>
+<td>DCL</td>
+<td>Data Control Language</td>
+<td>数据控制语言，用来创建数据库用户、控制数据库的 访问权限</td>
+</tr>
+</tbody></table>
+
             </div>
 
             <!-- Post Comments -->
